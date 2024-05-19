@@ -1,0 +1,70 @@
+:root {
+    // BACKGROUND COLOR
+    --primary: #F2F2F2;
+
+    // FONT COLOR
+    --font: #3E3E3E;
+}
+
+
+// --- SETTING BASE STYLES
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+// --- SETTING WRAP MARGIN
+.wrap {
+    margin: 0 8rem;
+}
+
+// --- NAV STYLING
+nav {
+    // background-color: red;
+    ul {
+        height: 8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li {
+            list-style: none;
+            text-decoration: none;
+            font-size: 0.85rem;
+
+            // --- TARGETING FIRST CHILD IN NAVBAR
+            &:first-child {
+                font-size: 1.75rem;
+                font-weight: bolder;
+                margin-right: auto;
+            }
+
+            // --- EXCLUDING FIRST AND LAST CHILD IN NAVBAR
+            &:not(:first-child):not(:last-child) {
+                margin: 0 2rem;
+            }
+
+            // --- TARGETING LAST CHILD IN NAVBAR
+            &:last-child {
+                margin-left: calc(50% - 30%);
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        background-color: yellow;
+
+    }
+}
+
+
+
+
+h1, h2, h3, h4, h5, p, a {
+    color: var(--font);
+}
+
+h1 {
+    font-size: 3.25rem;
+    font-weight: 1000;
+}

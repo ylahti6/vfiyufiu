@@ -1,0 +1,51 @@
+:root {
+  --primary: #F2F2F2;
+  --font: #3E3E3E;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.wrap {
+  margin: 0 8rem;
+}
+
+nav ul {
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+nav ul li:first-child {
+  font-size: 1.75rem;
+  font-weight: bolder;
+  margin-right: auto;
+}
+nav ul li:not(:first-child):not(:last-child) {
+  margin: 0 2rem;
+}
+nav ul li:last-child {
+  margin-left: 20%;
+}
+@media (max-width: 768px) {
+  nav {
+    background-color: yellow;
+  }
+}
+
+h1, h2, h3, h4, h5, p, a {
+  color: var(--font);
+}
+
+h1 {
+  font-size: 3.25rem;
+  font-weight: 1000;
+}/*# sourceMappingURL=global.css.map */
