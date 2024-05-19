@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './styles/global.css';
 // import App from './App';
+
 import Navigator from './components/Navigator';
 import Header from './sections/Header';
 import reportWebVitals from './reportWebVitals';
@@ -12,7 +13,7 @@ root.render(
   <React.StrictMode>
     <div className='wrap'>
       <Navigator />
-      <Header />
+      {/* <Header /> */}
     </div>
 
     {/* <App /> */}

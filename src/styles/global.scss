@@ -16,7 +16,13 @@
 
 // --- SETTING WRAP MARGIN
 .wrap {
-    margin: 0 8rem;
+    @media (min-width: 1200px) {
+        margin: 0 8rem;
+    }
+
+    @media (max-width: 1200px) {
+        margin: 0 2.75rem;
+    }
 }
 
 // --- NAV STYLING
@@ -30,7 +36,7 @@ nav {
         li {
             list-style: none;
             text-decoration: none;
-            font-size: 0.85rem;
+            font-size: 0.75rem;
 
             // --- TARGETING FIRST CHILD IN NAVBAR
             &:first-child {
@@ -54,6 +60,22 @@ nav {
     @media (max-width: 768px) {
         background-color: yellow;
 
+    }
+}
+
+
+// --- TIME COMPONENT
+.time {
+    pointer-events: none;
+    .location {
+        margin:0 2rem;
+    }
+    .blink {
+        animation: blink 1s infinite;
+    }
+    @keyframes blink {
+        0%, 100% { opacity: 1;}
+        10% { opacity: 0;}    
     }
 }
 

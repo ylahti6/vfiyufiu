@@ -1,5 +1,5 @@
 import React from "react";
-
+import Time from "./Time";
 function Navigator () {
     return (
         <nav>
@@ -8,7 +8,7 @@ function Navigator () {
                 <li><a href="#">Works</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contacts</a></li>
-                <li><a href="#">time</a></li>
+                <li><Time /></li>
             </ul>
         </nav>
     );

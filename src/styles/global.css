@@ -9,8 +9,15 @@
   text-decoration: none;
 }
 
-.wrap {
-  margin: 0 8rem;
+@media (min-width: 1200px) {
+  .wrap {
+    margin: 0 8rem;
+  }
+}
+@media (max-width: 1200px) {
+  .wrap {
+    margin: 0 2.75rem;
+  }
 }
 
 nav ul {
@@ -22,7 +29,7 @@ nav ul {
 nav ul li {
   list-style: none;
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
 }
 nav ul li:first-child {
   font-size: 1.75rem;
@@ -38,6 +45,24 @@ nav ul li:last-child {
 @media (max-width: 768px) {
   nav {
     background-color: yellow;
+  }
+}
+
+.time {
+  pointer-events: none;
+}
+.time .location {
+  margin: 0 2rem;
+}
+.time .blink {
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0;
   }
 }
 
