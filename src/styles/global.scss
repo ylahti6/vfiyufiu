@@ -4,6 +4,10 @@
 
     // FONT COLOR
     --font: #3E3E3E;
+
+
+    // --- TOGGLED NAVBAR BACKGROUND
+    --toggled-background: #1f1f1f;
 }
 
 
@@ -21,15 +25,15 @@
     }
 
     @media (max-width: 1200px) {
-        margin: 0 2.75rem;
+        margin: 0 0.75rem;
     }
 }
 
 // --- NAV STYLING
 nav {
-    // background-color: red;
+    background-color: red;
     ul {
-        height: 8rem;
+        height: 7.5rem;
         display: flex;
         justify-content: space-between;
         align-items: center;

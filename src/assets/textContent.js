@@ -7,6 +7,12 @@ const textContent = {
 
     // --- TIME & LOCATION
     location: "London (GMT)",
+
+    // --- NAVIGATION BAR
+    yannick: "yannick.",
+    projects: "works",
+    about: "about",
+    contact: "contact",
 }
 
 export default textContent;

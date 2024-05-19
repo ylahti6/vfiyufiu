@@ -1,6 +1,7 @@
 :root {
   --primary: #F2F2F2;
   --font: #3E3E3E;
+  --toggled-background: #1f1f1f;
 }
 
 * {
@@ -16,12 +17,15 @@
 }
 @media (max-width: 1200px) {
   .wrap {
-    margin: 0 2.75rem;
+    margin: 0 0.75rem;
   }
 }
 
+nav {
+  background-color: red;
+}
 nav ul {
-  height: 8rem;
+  height: 7.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,15 +1,29 @@
-import React from "react";
 import Time from "./Time";
+import textContent from "../assets/textContent";
+
 function Navigator () {
+    const {yannick, projects, about, contact} = textContent;
+    // const x = document.getElementById("myLinks");
+    // if (x.style.display === "block") {
+    //     x.style.display = "none";
+    // }
+    // else {
+    //     x.style.display = "block";
+    // }
+
     return (
         <nav>
             <ul>
-                <li><a href="#">yannick.</a></li>
-                <li><a href="#">Works</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li>{yannick}</li>
+                <li>{projects}</li>
+                <li>{about}</li>
+                <li>{contact}</li>
                 <li><Time /></li>
             </ul>
+            {/* <ul className="toggled">
+                <li>Works</li>
+                
+            </ul> */}
         </nav>
     );
 }
