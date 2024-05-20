@@ -1,6 +1,6 @@
 :root {
     // BACKGROUND COLOR
-    --background: #F2F2F2;
+    --background: #d8dce8;
 
     // --- TOGGLED NAVBAR BACKGROUND
     --toggled-background: #1f1f1f;
@@ -29,12 +29,18 @@
 }
 
 .header {
-    span, h1 {
+    .auto-flick, h1 {
         font-size: 8rem;
         font-weight: 400;
         .dot {
+            vertical-align: middle;
             font-size: 6rem;
         }
+    }
+    p {
+        float: right;
+        font-size: 1.5rem;
+        max-width: 10rem;
     }
 }
 

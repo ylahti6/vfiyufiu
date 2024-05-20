@@ -10,7 +10,7 @@ const textContent = {
     mongodb: "mongoDB",
     express: "Express",
 
-    // intro: "I build pixel-perfect, engangagin and acessible digital experiences.",
+    intro: "I build pixel-perfect, engangagin and acessible digital experiences.",
 
     // --- TIME & LOCATION
     location: "London (GMT)",
