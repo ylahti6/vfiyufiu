@@ -21,9 +21,6 @@
 .App {
     @media (min-width: 640px) {
         margin: 0 10%;
-        &:not(2) {
-            margin: 0;
-        }
     }
 
     @media (max-width: 640px) {
@@ -119,6 +116,12 @@ nav {
             }
         }
     }
+}
+
+.about {
+    height: 50vh;
+    width: 100%;
+    background-color: yellow;
 }
 
 .footer {

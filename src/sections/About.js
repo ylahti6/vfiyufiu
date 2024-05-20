@@ -1,7 +1,10 @@
+import textContent from "../assets/textContent";
 function About() {
+    const {about, aboutContent} = textContent;
     return (
         <div className="about">
-            <p></p>
+            <p>{about}</p>
+            <h4>test</h4>
         </div>
     );
 }

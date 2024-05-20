@@ -98,6 +98,12 @@ nav ul li:last-child {
   }
 }
 
+.about {
+  height: 50vh;
+  width: 100%;
+  background-color: yellow;
+}
+
 .footer {
   background-color: var(--font);
   color: var(--main-background);

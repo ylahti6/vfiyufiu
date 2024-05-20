@@ -4,8 +4,7 @@ const textContent = {
     logo: "yannick.",
 
     // --- PERSONAL MARK
-    mark: "2024 / CREATIVE DEVELOPER"
-
+    mark: "2024 / CREATIVE DEVELOPER",
 
     // --- CONTENT FOR HEADER
     name: "Yannick Lahti",
@@ -27,6 +26,9 @@ const textContent = {
     projects: "works",
     about: "about",
     contact: "contact",
+
+    // --- ABOUT ME SECTION
+    aboutContent: "HELLO, I AM A FRONT END DEVELOPER, I ENJOY CREATING UNIQUE WEB APPS & HELP THEM STAND OUT. I UNITE STRATEGY, DESIGN AND CREATIVE SOLUTIONS TO MAKE IT HAPPEN.",
 }
 
 export default textContent;

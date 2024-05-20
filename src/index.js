@@ -10,7 +10,7 @@ import Footer from './sections/Footer';
 // import Navigator from './components/Navigator';
 // import Header from './sections/Header';
 import reportWebVitals from './reportWebVitals';
-
+import About from "./sections/About";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -22,6 +22,7 @@ root.render(
     
     {/* --- VIDEO */}
     <Filler />
+    <About />
     <Footer />
     </>
 
