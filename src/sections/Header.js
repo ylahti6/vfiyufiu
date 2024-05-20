@@ -15,7 +15,7 @@ function Header() {
       <div className='auto-flick'>
       <BiSolidCircle className='dot'/>{figma}
       </div>
-      <p>{intro}</p>
+      {/* <p>{intro}</p> */}
     </div>
   );
 }
