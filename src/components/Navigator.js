@@ -15,9 +15,9 @@ function Navigator () {
         <nav>
             <ul>
                 <li>{yannick}</li>
-                <li>{projects}</li>
+                {/* <li>{projects}</li>
                 <li>{about}</li>
-                <li>{contact}</li>
+                <li>{contact}</li> */}
                 <li><Time /></li>
             </ul>
         </nav>

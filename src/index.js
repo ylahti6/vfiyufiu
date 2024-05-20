@@ -2,21 +2,29 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './styles/global.css';
-// import App from './App';
+import App from './App';
 
-import Navigator from './components/Navigator';
-import Header from './sections/Header';
+import Filler from "./sections/Filler";
+import Footer from './sections/Footer';
+
+// import Navigator from './components/Navigator';
+// import Header from './sections/Header';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div className='wrap'>
-      <Navigator />
-      <Header />
-    </div>
+    <>
 
-    {/* <App /> */}
+    {/* --- LANDING PAGE STARTER */}
+    <App />
+
+
+    {/* --- VIDEO */}
+    <Filler />
+    <Footer />
+    </>
+
   </React.StrictMode>
 );
 

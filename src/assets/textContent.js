@@ -1,7 +1,15 @@
 const textContent = {
+
+    // --- LOGO
+    logo: "yannick.",
+
+    // --- PERSONAL MARK
+    mark: "2024 / CREATIVE DEVELOPER",
+
+
     // --- CONTENT FOR HEADER
     name: "Yannick Lahti",
-    role: "Creative Developer",
+    role: "Creative developer",
 
     // --- WHAT I DO BLINKER
     frontend: "frontend",

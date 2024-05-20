@@ -1,11 +1,11 @@
 :root {
-    // BACKGROUND COLOR
+    // --- BACKGROUND COLOR
     --font: #d8dce8;
 
     // --- TOGGLED NAVBAR BACKGROUND
     --toggled-background: #1f1f1f;
 
-    // FONT COLOR
+    // --- FONT COLOR
     --main-background: #1f1f1f;
 }
 
@@ -18,9 +18,12 @@
 }
 
 // --- SETTING WRAP MARGIN
-.wrap {
+.App {
     @media (min-width: 640px) {
         margin: 0 10%;
+        &:not(2) {
+            margin: 0;
+        }
     }
 
     @media (max-width: 640px) {
@@ -29,8 +32,14 @@
 }
 
 .header {
+    // background-color: red;
+    min-height: 10rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     .auto-flick, h1, .dot {
-        font-size: 6vw;
+        font-size: 8vw;
         font-weight: 400;
 
         .dot {
@@ -42,6 +51,21 @@
         font-size: 1.5rem;
         max-width: 10rem;
     }
+
+    @media (max-width: 640px) {
+        min-height: 8rem;
+        max-height: 20vh;
+        h1 {
+            font-size: 11vw;
+        }
+        
+    }
+}
+
+.filler {
+    height: 100vh;
+    width: 100%;
+    background-color: coral;
 }
 
 // --- NAV STYLING
@@ -97,6 +121,19 @@ nav {
     }
 }
 
+.footer {
+    background-color: var(--font);
+    color: var(--main-background);
+    h1 {
+        padding: 2vw;
+        font-weight: 600;
+        font-size: 15vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 
 // --- TIME COMPONENT
 .time {
@@ -111,16 +148,4 @@ nav {
         0%, 100% { opacity: 1;}
         10% { opacity: 0;}    
     }
-}
-
-
-
-
-h1, h2, h3, h4, h5, p, a {
-    color: var(--font);
-}
-
-h1 {
-    font-size: 3.25rem;
-    font-weight: 1000;
 }

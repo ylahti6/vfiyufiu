@@ -13,7 +13,7 @@ function Header() {
     <div className="header">
       <h1>{role}</h1>
       <div className='auto-flick'>
-      <BiSolidCircle className='dot'/>{figma}
+        <BiSolidCircle className='dot'/>{figma}
       </div>
       {/* <p>{intro}</p> */}
     </div>
