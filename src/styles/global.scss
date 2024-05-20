@@ -1,0 +1,151 @@
+:root {
+    // --- BACKGROUND COLOR
+    --font: #d8dce8;
+
+    // --- TOGGLED NAVBAR BACKGROUND
+    --toggled-background: #1f1f1f;
+
+    // --- FONT COLOR
+    --main-background: #1f1f1f;
+}
+
+
+// --- SETTING BASE STYLES
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+// --- SETTING WRAP MARGIN
+.App {
+    @media (min-width: 640px) {
+        margin: 0 10%;
+        &:not(2) {
+            margin: 0;
+        }
+    }
+
+    @media (max-width: 640px) {
+        margin: 0 0.75rem;
+    }
+}
+
+.header {
+    // background-color: red;
+    min-height: 10rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .auto-flick, h1, .dot {
+        font-size: 8vw;
+        font-weight: 400;
+
+        .dot {
+            vertical-align: middle;
+        }
+    }
+    p {
+        float: right;
+        font-size: 1.5rem;
+        max-width: 10rem;
+    }
+
+    @media (max-width: 640px) {
+        min-height: 8rem;
+        max-height: 20vh;
+        h1 {
+            font-size: 11vw;
+        }
+        
+    }
+}
+
+.filler {
+    height: 100vh;
+    width: 100%;
+    background-color: coral;
+}
+
+// --- NAV STYLING
+nav {
+    ul {
+        height: 7.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li {
+            list-style: none;
+            text-decoration: none;
+            font-size: 0.75rem;
+
+            // --- TARGETING FIRST CHILD IN NAVBAR
+            &:first-child {
+                font-size: 2rem;
+                font-weight: bolder;
+                margin-right: auto;
+            }
+
+            // --- EXCLUDING FIRST AND LAST CHILD IN NAVBAR
+            &:not(:first-child):not(:last-child) {
+                margin: 0 2rem;
+            }
+
+            // --- TARGETING LAST CHILD IN NAVBAR
+            &:last-child {
+                margin-left: calc(50% - 30%);
+            }
+        }
+    }
+
+    // --- MOBILE STYLING
+    @media (max-width: 768px) {
+        margin: 0.5rem 0;
+        ul {
+            height: 100%;
+            max-height: fit-content;
+            li {
+                &:nth-child(1) {
+                    font-size: 1.75rem;
+                }
+                &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+                    display: none;
+                }
+
+                &:last-child {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: var(--font);
+    color: var(--main-background);
+    h1 {
+        padding: 2vw;
+        font-weight: 600;
+        font-size: 15vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+// --- TIME COMPONENT
+.time {
+    pointer-events: none;
+    .location {
+        margin:0 2rem;
+    }
+    .blink {
+        animation: blink 1s infinite;
+    }
+    @keyframes blink {
+        0%, 100% { opacity: 1;}
+        10% { opacity: 0;}    
+    }
+}
