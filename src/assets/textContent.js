@@ -4,7 +4,7 @@ const textContent = {
     logo: "yannick.",
 
     // --- PERSONAL MARK
-    mark: "2024 / CREATIVE DEVELOPER",
+    mark: "2024 / CREATIVE DEVELOPER"
 
 
     // --- CONTENT FOR HEADER
