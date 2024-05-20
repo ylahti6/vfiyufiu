@@ -1,5 +1,4 @@
 const textContent = {
-
     // --- CONTENT FOR HEADER
     name: "Yannick Lahti",
     role: "Creative Developer",
