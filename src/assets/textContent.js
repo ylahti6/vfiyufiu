@@ -2,8 +2,15 @@ const textContent = {
 
     // --- CONTENT FOR HEADER
     name: "Yannick Lahti",
-    role: "Frontend Developer",
-    intro: "I build pixel-perfect, engangagin and acessible digital experiences.",
+    role: "Creative Developer",
+
+    // --- WHAT I DO BLINKER
+    frontend: "frontend",
+    figma: "figma",
+    mongodb: "mongoDB",
+    express: "Express",
+
+    // intro: "I build pixel-perfect, engangagin and acessible digital experiences.",
 
     // --- TIME & LOCATION
     location: "London (GMT)",

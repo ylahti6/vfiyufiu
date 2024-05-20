@@ -20,10 +20,6 @@ function Navigator () {
                 <li>{contact}</li>
                 <li><Time /></li>
             </ul>
-            {/* <ul className="toggled">
-                <li>Works</li>
-                
-            </ul> */}
         </nav>
     );
 }

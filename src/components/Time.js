@@ -11,7 +11,7 @@ function Time() {
             <p> 
                 <span className="location">{location}</span>
                 {hours}
-                <span className="blink">:</span>
+                <span className="blink"> : </span>
                 {minutes}
             </p>
         </div>

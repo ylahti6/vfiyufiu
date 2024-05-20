@@ -21,9 +21,14 @@
   }
 }
 
-nav {
-  background-color: red;
+.header span, .header h1 {
+  font-size: 8rem;
+  font-weight: 400;
 }
+.header span .dot, .header h1 .dot {
+  font-size: 6rem;
+}
+
 nav ul {
   height: 7.5rem;
   display: flex;
@@ -47,9 +52,6 @@ nav ul li:last-child {
   margin-left: 20%;
 }
 @media (max-width: 768px) {
-  nav {
-    background-color: yellow;
-  }
   nav li:nth-child(2), nav li:nth-child(3), nav li:nth-child(4) {
     display: none;
   }

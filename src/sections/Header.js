@@ -1,13 +1,16 @@
 import textContent from '../assets/textContent';
 import '../styles/global.css';
+import { BiSolidCircle } from 'react-icons/bi';
 
-const { name, role, intro } = textContent; 
 
 function Header() {
+  
+  const { frontend, figma, mongodb, express, role, intro } = textContent; 
+
   return (
-    <div className="App">
-      <h1>{name}</h1>
-      <h3>{role}</h3>
+    <div className="header">
+      <h1>{role}</h1>
+        <span><BiSolidCircle className='dot'/>{figma}</span>
       <p>{intro}</p>
     </div>
   );

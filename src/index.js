@@ -5,7 +5,7 @@ import './styles/global.css';
 // import App from './App';
 
 import Navigator from './components/Navigator';
-// import Header from './sections/Header';
+import Header from './sections/Header';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,7 +13,7 @@ root.render(
   <React.StrictMode>
     <div className='wrap'>
       <Navigator />
-      {/* <Header /> */}
+      <Header />
     </div>
 
     {/* <App /> */}
