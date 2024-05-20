@@ -19,7 +19,7 @@ root.render(
     {/* --- LANDING PAGE STARTER */}
     <App />
 
-
+    
     {/* --- VIDEO */}
     <Filler />
     <Footer />
