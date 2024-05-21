@@ -17,22 +17,6 @@
     text-decoration: none;
 }
 
-// --- SETTING WRAP MARGIN
-.App {
-    @media (min-width: 640px) {
-        margin: 0 10%;
-    }
-
-    @media (max-width: 640px) {
-        margin: 0 0.75rem;
-    }
-
-    .no-wrap {
-        margin: 0;
-        background-color: red;
-    }
-}
-
 .header {
     // background-color: red;
     min-height: 10rem;
