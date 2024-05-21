@@ -1,0 +1,17 @@
+// --- CSS FOCUSING ON APP RULES
+
+
+// --- SETTING WRAP MARGIN
+.App {
+    @media (min-width: 640px) {
+        margin: 0 10%;
+    }
+
+    @media (max-width: 640px) {
+        margin: 0 0.75rem;
+    }
+
+    .no-wrap {
+        margin: 0;
+    }
+}

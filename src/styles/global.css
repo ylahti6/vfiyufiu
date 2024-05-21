@@ -20,6 +20,10 @@
     margin: 0 0.75rem;
   }
 }
+.App .no-wrap {
+  margin: 0;
+  background-color: red;
+}
 
 .header {
   min-height: 10rem;

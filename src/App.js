@@ -1,25 +1,14 @@
-import Header from "./sections/Header";
 import Navigator from "./components/Navigator";
-
+import HomePage from "./pages/HomePage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
       <Navigator />
-      <Header />
-      
+      <HomePage />
+      <Footer />
     </div>
-  );
-}
-
-
-// find out if chat gpt can figure out how to 
-// have two functions that return stuff to 
-// one index page
-
-function AppNotWrapped() {
-  return (
-    <></>
   );
 }
 

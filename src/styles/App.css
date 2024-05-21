@@ -1,0 +1,13 @@
+@media (min-width: 640px) {
+  .App {
+    margin: 0 10%;
+  }
+}
+@media (max-width: 640px) {
+  .App {
+    margin: 0 0.75rem;
+  }
+}
+.App .no-wrap {
+  margin: 0;
+}/*# sourceMappingURL=App.css.map */
